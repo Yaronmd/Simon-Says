@@ -13,6 +13,7 @@
 		80BD6D3224222AE400EEE01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BD6D3024222AE400EEE01E /* Main.storyboard */; };
 		80BD6D3424222AE400EEE01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BD6D3324222AE400EEE01E /* Assets.xcassets */; };
 		80BD6D3724222AE400EEE01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BD6D3524222AE400EEE01E /* LaunchScreen.storyboard */; };
+		80BD6D3F24224D3C00EEE01E /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD6D3E24224D3C00EEE01E /* CircularButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80BD6D3324222AE400EEE01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80BD6D3624222AE400EEE01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80BD6D3824222AE400EEE01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BD6D3E24224D3C00EEE01E /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				80BD6D3324222AE400EEE01E /* Assets.xcassets */,
 				80BD6D3524222AE400EEE01E /* LaunchScreen.storyboard */,
 				80BD6D3824222AE400EEE01E /* Info.plist */,
+				80BD6D3E24224D3C00EEE01E /* CircularButton.swift */,
 			);
 			path = "Simon Says";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BD6D3F24224D3C00EEE01E /* CircularButton.swift in Sources */,
 				80BD6D2F24222AE400EEE01E /* ViewController.swift in Sources */,
 				80BD6D2B24222AE400EEE01E /* AppDelegate.swift in Sources */,
 				80BD6D2D24222AE400EEE01E /* SceneDelegate.swift in Sources */,
